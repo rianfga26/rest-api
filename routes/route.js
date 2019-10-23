@@ -9,5 +9,6 @@ module.exports = function (app) {
 
   app.use('/siswa', siswa)
   app.use('/ruangan', ruangan)
+  app.use('/mata-pelajaran', mata_pelajaran)
   app.get('/', (req, res) => res.send('coba'))
 }

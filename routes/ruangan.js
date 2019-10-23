@@ -101,6 +101,10 @@ router.get('/:id', (req,res,next) => {
           'message' : 'OK',
           'data' : data
             })  
+
+            if (req.params.id === String) {
+                res.sendStatus(400)
+            }
         })
           .catch(err => {
             console.log(err)
