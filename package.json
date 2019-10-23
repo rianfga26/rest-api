@@ -1,0 +1,31 @@
+{
+  "name": "app-structure",
+  "version": "1.0.0",
+  "description": "membuat restapi",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardirama/rest-api.git"
+  },
+  "author": "riyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ardirama/rest-api/issues"
+  },
+  "homepage": "https://github.com/ardirama/rest-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mariadb": "^2.1.2",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.19.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
